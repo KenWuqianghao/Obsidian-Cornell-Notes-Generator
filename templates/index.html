@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Obsidian Cornell Notes Generator</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('form').on('submit', function(event) {
+                event.preventDefault();
+                $.ajax({
+                    data: {
+                        input_text: $('#inputText').val()
+                    },
+                    type: 'POST',
+                    url: '/process_text',
+                    success: function(response) {
+                        $('#outputText').text(response.output_text);
+                    }
+                });
+                $('#inputText').val('');
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Flask Web App</h1>
+    <form>
+        <textarea id="inputText" rows="10" cols="50"></textarea>
+        <br>
+        <button type="submit">Process Text</button>
+    </form>
+    <br>
+    <h2>Output:</h2>
+    <pre id="outputText"></pre>
+</body>
+</html>
