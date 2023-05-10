@@ -93,6 +93,7 @@ repo
 
 Before you begin, ensure that you have the following prerequisites installed:
 > [timeline](https://github.com/Darakah/obsidian-timelines) plugin in Obsidian
+> Fill in the OpenAI API key in .env file, make a copy from .env.template
 
 ### 💻 Installation
 
