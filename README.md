@@ -92,7 +92,7 @@ repo
 ### ✅ Prerequisites
 
 Before you begin, ensure that you have the following prerequisites installed:
-> `[[timeline]([url](https://github.com/Darakah/obsidian-timelines))]`
+> [timeline]([url](https://github.com/Darakah/obsidian-timelines)) plugin in Obsidian
 
 ### 💻 Installation
 
