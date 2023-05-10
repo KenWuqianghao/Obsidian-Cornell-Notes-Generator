@@ -30,18 +30,19 @@ Obsidian-Cornell-Notes-Generator
 - [🗺 Roadmap](#-roadmap)
 - [🤝 Contributing](#-contributing)
 - [🪪 License](#-license)
-- [📫 Contact](#-contact)
-- [🙏 Acknowledgments](#-acknowledgments)
 
 ---
 
 ## 📍Overview
 
-Obsidian-Cornell-Notes-Generator is an open source project that provides an automated way to generate Cornell-style notes from Obsidian notes. Using the powerful Obsidian graph engine
+Obsidian-Cornell-Notes-Generator is an open source project that provides an automated way to generate Cornell-style notes for Obsidian.
+
+![Screenshot 2023-05-10 at 17 39 23](https://github.com/KenWuqianghao/Obsidian-Cornell-Notes-Generator/assets/20444505/3877425f-0d8b-467a-ad08-b2e147545ccb)
 
 ## 🔮 Feautres
 
-> `[📌  INSERT-PROJECT-FEATURES]`
+> Use OpenAI API to generate timeline format Cornell notes from lecture transcript, textbook, slides, etc
+![Screenshot 2023-05-10 at 17 41 36](https://github.com/KenWuqianghao/Obsidian-Cornell-Notes-Generator/assets/20444505/d0059a24-efe2-42e2-961e-1db3e1c54ac4)
 
 ---
 
@@ -91,7 +92,7 @@ repo
 ### ✅ Prerequisites
 
 Before you begin, ensure that you have the following prerequisites installed:
-> `[📌  INSERT-PROJECT-PREREQUISITES]`
+> `[[timeline]([url](https://github.com/Darakah/obsidian-timelines))]`
 
 ### 💻 Installation
 
