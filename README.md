@@ -107,28 +107,21 @@ cd Obsidian-Cornell-Notes-Generator
 
 3. Install the dependencies:
 ```sh
-pip install -r requirements.txt
+conda env create --name cornell --file environment.yml
+conda activate cornell
 ```
 
 ### 🤖 Using Obsidian-Cornell-Notes-Generator
 
 ```sh
-python main.py
+flask --app main run
+python -m webbrowser http://127.0.0.1:5000/
 ```
 
-### 🧪 Running Tests
+You can also just run setup.sh file
 ```sh
-#run tests
+bash setup.sh
 ```
-
-<hr />
-
-## 🛠 Future Development
-- [X] [📌  COMPLETED-TASK]
-- [ ] [📌  INSERT-TASK]
-- [ ] [📌  INSERT-TASK]
-
-
 ---
 
 ## 🤝 Contributing
